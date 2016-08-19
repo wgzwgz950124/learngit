@@ -1,0 +1,20 @@
+<html>
+<head></head>
+<title> hello </title>
+<body>
+	<div align='center'>
+	<h1>欢迎使用CAU绩点计算工具</h1>
+	{% if message %} {{message}} {%endif%}
+	<form method = "post">
+		学号:{{form.username}}
+		<br/>
+		密码:{{form.password}}
+		<br/>
+		<input type='submit' vaule='Submit' />
+		<input type='reset' vaule='reset' />
+		<h2> 作者：Eleven</h2>
+		<h3>该工具没有连接数据库，不会记录同学的个人信息</h3>
+		<h3>如不放心，可联系QQ1954478604索要源码</h3>
+	</form>
+</body>
+</html>
